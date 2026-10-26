@@ -35,6 +35,17 @@ wheels/
 *.swp
 *.swo
 
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.env
+*.secret
+*.secrets
+*.token
+credentials*
+config.local.*
+
 # OS
 .DS_Store
 Thumbs.db
