@@ -54,7 +54,7 @@ fpmm-market-mechanics/
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/fpmm-market-mechanics.git
+git clone https://github.com/quantflowmacro/fpmm-market-mechanics.git
 cd fpmm-market-mechanics
 pip install -r requirements.txt
 ```
