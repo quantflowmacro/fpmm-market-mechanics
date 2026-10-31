@@ -5,6 +5,13 @@ QuantFlow Macro Research Institute (c) 2026
 """
 
 from pathlib import Path
+import sys
+
+# Ensure repository root is in sys.path for direct script execution
+root_dir = Path(__file__).resolve().parent.parent
+if str(root_dir) not in sys.path:
+    sys.path.insert(0, str(root_dir))
+
 import pandas as pd
 from fpmm.kinematics import compute_potential_well, compute_velocity
 from fpmm.regimes import classify_market_regime
@@ -12,7 +19,6 @@ from fpmm.regimes import classify_market_regime
 
 def run_demo():
     # Resolve project root and data path
-    root_dir = Path(__file__).resolve().parent.parent
     data_path = root_dir / "data" / "sample_ohlcv.csv"
 
     print("=" * 60)

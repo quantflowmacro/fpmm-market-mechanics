@@ -27,5 +27,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Demo Phase Detection
+      env:
+        PYTHONPATH: .
       run: |
         python examples/demo_phase_detection.py
