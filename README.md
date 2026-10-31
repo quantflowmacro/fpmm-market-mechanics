@@ -1,6 +1,7 @@
 # First-Principles Market Mechanics (FPMM)
 
-[![SSRN Paper](https://img.shields.io/badge/SSRN-Abstract_7667578-blue.svg)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7667578)
+[![SSRN Paper](https://img.shields.io/badge/SSRN-7667578-blue.svg)](https://ssrn.com/abstract=7667578)
+[![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.7667578-blue.svg)](https://doi.org/10.2139/ssrn.7667578)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1469--2690-green.svg)](https://orcid.org/0009-0004-1469-2690)
 [![Website](https://img.shields.io/badge/Research-QuantFlow_Macro-black.svg)](https://quantflowmacro.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -84,7 +85,8 @@ python examples/demo_phase_detection.py
 ## Research & Documentation
 
 - **Theoretical Monograph**: [Read Full Working Paper at QuantFlow Macro](https://quantflowmacro.com/first-principles-market-mechanics-particle-dynamics/)
-- **Academic Pre-print**: [SSRN Abstract 7667578](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7667578)
+- **SSRN Working Paper**: [SSRN Abstract 7667578](https://ssrn.com/abstract=7667578)
+- **Digital Object Identifier (DOI)**: [doi:10.2139/ssrn.7667578](https://doi.org/10.2139/ssrn.7667578)
 - **Institution**: [QuantFlow Macro Research Institute](https://quantflowmacro.com)
 
 ---
@@ -102,11 +104,16 @@ If you utilize this framework, codebase, or mathematical methodology in your res
   number={01},
   pages={QFM--2026--01},
   year={2026},
+  month={10},
   publisher={QuantFlow Macro Research Institute},
-  url={https://quantflowmacro.com/first-principles-market-mechanics-particle-dynamics/},
-  note={SSRN: \url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7667578}}
+  doi={10.2139/ssrn.7667578},
+  url={https://ssrn.com/abstract=7667578},
+  note={Available at SSRN: \url{https://ssrn.com/abstract=7667578} or \url{https://doi.org/10.2139/ssrn.7667578}}
 }
 ```
+
+Standard Academic Reference:
+> Qiu, Kevin Z., *First-Principles Market Mechanics: Particle Kinematics, Potential Well Escape, and Thermodynamic Phase Regimes in Financial Markets* (October 24, 2026). Available at SSRN: https://ssrn.com/abstract=7667578 or http://dx.doi.org/10.2139/ssrn.7667578
 
 ---
 
